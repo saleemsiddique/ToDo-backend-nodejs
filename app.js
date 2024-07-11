@@ -16,6 +16,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
+
 // Rutas
 app.use('/', require('./routes/index'));
 
